@@ -20,3 +20,7 @@ def step_impl(context):
 @then("The files in the download list are downloaded")
 def step_impl(context):
     raise NotImplementedError("Step: The files in the download list are downloaded")
+
+@then("The downloaded files are combined by date and time into NetCDF files")
+def step_impl(context):
+    raise NotImplementedError("Step: The downloaded files are combined by date and time into NetCDF files")
