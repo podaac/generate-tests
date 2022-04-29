@@ -13,5 +13,7 @@ Feature: Generate
         Then A download list is created
         When Execute the downloader
         Then The files in the download list are downloaded
+        When Execute the uncompressor
+        Then The downloaded files are moved to a new directory based on whether they are quicklook or refined
         When Execute the combiner
         Then The downloaded files are combined by date and time into NetCDF files
