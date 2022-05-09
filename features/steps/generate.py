@@ -36,3 +36,11 @@ def step_impl(context):
 @then("The downloaded files are combined by date and time into NetCDF files")
 def step_impl(context):
     raise NotImplementedError("Step: The downloaded files are combined by date and time into NetCDF files")
+
+@when("Execute the processor")
+def step_impl(context):
+    raise NotImplementedError("Step: Execute the processor")
+
+@then("The final dataset files are created and moved to the output directory")
+def step_impl(context):
+    raise NotImplementedError("Step: The final dataset files are created and moved to the output directory")

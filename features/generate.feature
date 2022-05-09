@@ -17,3 +17,5 @@ Feature: Generate
         Then The downloaded files are moved to a new directory based on whether they are quicklook or refined
         When Execute the combiner
         Then The downloaded files are combined by date and time into NetCDF files
+        When Execute the processor
+        Then The final dataset files are created and moved to the output directory
