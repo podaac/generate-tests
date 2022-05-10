@@ -13,3 +13,4 @@ Feature: Downloader
             | viirs_filelist.txt.daily_2022_081_date_2022_03_22                                             | VIIRS |
         When Execute the Downloader
         Then All of the files in the list are downloaded
+        And Sorted into either a "QUICKLOOK" or "REFINED" specified directory
