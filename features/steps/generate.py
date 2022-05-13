@@ -44,3 +44,11 @@ def step_impl(context):
 @then("The final dataset files are created and moved to the output directory")
 def step_impl(context):
     raise NotImplementedError("Step: The final dataset files are created and moved to the output directory")
+
+@when("Execute the reporter")
+def step_impl(context):
+    raise NotImplementedError("Step: Execute the reporter")
+
+@then("A report is written on the total number of files processed for the day")
+def step_impl(context):
+    raise NotImplementedError("Step: A report is written on the total number of files processed for the day")
