@@ -19,3 +19,5 @@ Feature: Generate
         Then The downloaded files are combined by date and time into NetCDF files
         When Execute the processor
         Then The final dataset files are created and moved to the output directory
+        When Execute the reporter
+        Then A report is written on the total number of files processed for the day
